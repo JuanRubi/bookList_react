@@ -14,7 +14,6 @@ const Book_List = () => {
           <Book {...book}></Book>
         )
       })}
-
     </section>
   )
 };

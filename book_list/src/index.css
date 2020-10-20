@@ -14,8 +14,39 @@ body {
 
 main {
   background-color: #617d98;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
+}
+
+/*---------------   Navigation Styles   -----------------*/
+
+nav {
+  height: 6rem;
+  background-color: #000733;
+  color: #eeeeee;
+}
+
+.navLinks {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+a:hover,
+a:focus {
+  color: #dddd00;
+}
+
+.active_nav_link {
+  border-bottom: 1px solid #dddddd;
 }
 
 /*--------------        Body Styles     -----------------*/
@@ -53,7 +84,7 @@ main {
   height: 13rem;
 }
 
-.book h1 {
+.book h3 {
     margin-top: 0.5rem;
 }
 
